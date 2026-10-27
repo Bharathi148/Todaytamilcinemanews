@@ -3,37 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TODAY TAMIL CINEMA NEWS - Bharathi</title>
+<title>TODAY TAMIL CINEMA NEWS</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;font-family:Arial}
-.header{background:linear-gradient(90deg,#cc0000,#ff3300,#ff6600);padding:18px;text-align:center;color:#fff;position:sticky;top:0;z-index:10}
-.header h1{font-size:22px;font-weight:900}
-.header p{font-size:11px;margin-top:6px;opacity:0.9}
-.news img{width:100%;display:block;border-bottom:3px solid #ff6600}
-.footer{background:#111;color:#666;text-align:center;padding:20px 10px 80px;font-size:11px}
-.bottom{position:fixed;bottom:0;left:0;right:0;background:#111;border-top:2px solid #ff6600;display:flex;justify-content:space-around;padding:10px 0}
-.bottom div{color:#888;font-size:11px;text-align:center}
-.bottom .active{color:#ff6600}
+body{background:#f5f5f5;font-family:Arial}
+.header{background:linear-gradient(90deg,#cc0000,#ff3300);padding:20px;text-align:center;color:#fff;position:sticky;top:0;z-index:100}
+.header h1{font-size:24px;font-weight:900}
+.header p{font-size:12px;margin-top:8px}
+.container{max-width:800px;margin:0 auto;background:#fff}
+.news-item{border-bottom:8px solid #eee;margin-bottom:2px}
+.news-title-box{background:linear-gradient(90deg,#cc0000,#ff0000);color:#fff;padding:12px 15px;font-weight:900;font-size:14px;display:flex;align-items:center;gap:8px;letter-spacing:0.5px}
+.news-title-box.orange{background:linear-gradient(90deg,#ff6600,#cc0000)}
+.news-title-box.blue{background:linear-gradient(90deg,#0033cc,#6600cc)}
+.news-title-box.green{background:linear-gradient(90deg,#00aa00,#008800)}
+.live-dot{width:10px;height:10px;background:#fff;border-radius:50%;animation:blink 1s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
+.news-item img{width:100%;display:block}
+.footer{background:#111;color:#aaa;text-align:center;padding:25px 15px 90px;font-size:12px;line-height:1.6}
+.bottom{position:fixed;bottom:0;left:0;right:0;background:#111;border-top:3px solid #ff3300;display:flex;justify-content:space-around;padding:12px 0;z-index:100}
+.bottom div{color:#888;font-size:12px;text-align:center}
+.bottom .active{color:#ff3300;font-weight:bold}
 </style>
 </head>
 <body>
 <div class="header">
 <h1>🎬 TODAY TAMIL CINEMA NEWS 🎬</h1>
-<p>Official Website | 1.5M+ Instagram Family | _tamil_cinema_news<br>Bharathi - Ariyur, Pudukkottai | Editor & Founder</p>
+<p>Official Website | 1.5M+ Instagram | _tamil_cinema_news<br>Bharathi - Ariyur, Pudukkottai</p>
 </div>
-<div class="news">
-<img src="news1jpg.jpg" alt="Oct 30">
-<img src="news2.jpg.jpg" alt="Jailer 2">
-<img src="news3.jpg.jpg" alt="SK Seyon">
-<img src="news4.jpg.jpg" alt="Nayan Rajini">
-<img src="news5.jpg.jpg" alt="Yuvan">
-<img src="news6.jpg.jpg" alt="Annamalai">
-<img src="news7.jpg.jpg" alt="OM Sai Pallavi">
-<img src="news8.jpg.jpg" alt="Nazriya">
+<div class="container">
+<div class="news-item">
+<div class="news-title-box"><span class="live-dot"></span> 🔥 TODAY BREAKING - OCT 30 6 FILMS</div>
+<img src="news1jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box orange"><span class="live-dot"></span> 💰 MEGA BLOCKBUSTER - JAILER 2 710CR</div>
+<img src="news2.jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box blue"><span class="live-dot"></span> 🎬 SK - SEYON VILAKKAM</div>
+<img src="news3.jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box"><span class="live-dot"></span> ⭐ NAYAN - RAJINI 6TH TIME - DHARMAN</div>
+<img src="news4.jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box green"><span class="live-dot"></span> 🎵 EXCLUSIVE - YUVAN MALAYALAM</div>
+<img src="news5.jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box orange"><span class="live-dot"></span> 🔥 ANNAMALAI REMAKE - SK REPLY?</div>
+<img src="news6.jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box blue"><span class="live-dot"></span> 👮 OM - SAI PALLAVI IPS GLIMPSE</div>
+<img src="news7.jpg.jpg">
+</div>
+<div class="news-item">
+<div class="news-title-box"><span class="live-dot"></span> 💔 NAZRIYA - 12 YEARS AFTER SCENE</div>
+<img src="news8.jpg.jpg">
+</div>
 </div>
 <div class="footer">
-© 2026 TODAY TAMIL CINEMA NEWS<br>Bharathi | Ariyur, Pudukkottai DT<br>1.5M+ Family on Instagram | _tamil_cinema_news<br><br>🔥 Full 8 News Updated Today 🔥
+© 2026 TODAY TAMIL CINEMA NEWS<br>Bharathi | Ariyur, Pudukkottai<br>1.5M+ Family | _tamil_cinema_news<br><br>🔥 Red Box Design Updated 🔥
 </div>
 <div class="bottom">
 <div class="active">🏠<br>Home</div>
